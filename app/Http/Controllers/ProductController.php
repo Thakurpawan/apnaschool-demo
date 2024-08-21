@@ -66,7 +66,7 @@ class ProductController extends Controller
         $productdata->description = $request->input('description');
         $productdata->save();
 
-        return response()->json(['success' => 'Products added successfully!']);
+        return response()->json(['success' => 'Product added successfully!']);
     }
 
 
